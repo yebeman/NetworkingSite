@@ -1,0 +1,87 @@
+ul.parrent {
+	position: relative;
+	padding: 0;
+	list-style: none;
+	margin: 20px auto 0;
+	width: 890px;
+}
+ul.parrent li {
+	float: left;
+	margin: 0px 5px 10px 5px;
+	border: 1px double #ddd;
+	background-color: #eee;
+}
+ul.parrent li img {
+	width: 200px;
+	height: 150px;
+	cursor: pointer;
+}
+ul.parrent li a {
+	display: block;
+	cursor: default;
+}
+ul.child {
+	position: relative;
+	padding: 0;
+	list-style: none;
+	text-align: left;
+}
+ul.child li {
+	border: none;
+	float: right;
+	display: inline;
+	font: 12px Times;
+	line-height: 1;
+	margin-bottom: 3px;
+}
+ul.child li.views {
+	color: #666;
+	margin-left: 0px;
+	border-left: medium none;
+	padding-left: 18px;
+	background-repeat: no-repeat;
+	background-position: 0px 50%;
+	background-image: url("../images/views.png");
+}
+ul.child li.likes a {
+	color: #666;
+	padding-left: 15px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-image: url("../images/heartS0.png");
+	cursor: pointer;
+}
+ul.child li.likes a:hover {
+	background-image: url("../images/heartS.png");
+}
+ul.child li.cmts a {
+	color: #666;
+	padding-left: 15px;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-image: url("../images/commentS0.png");
+	cursor: pointer;
+}
+ul.child li.cmts a:hover {
+	background-image: url("../images/commentS.png");
+}
+.viewport a span {
+	display: none;
+	padding-left: 5px;
+	word-break: break-all;
+	font: 15px Times;
+	width: 195px;
+	height: auto;
+	max-height: 130px;
+	position: absolute;
+	text-align: left;
+	text-decoration: none;
+	z-index: 100;
+}
+.dark-background {
+	background-color: rgba(15, 15, 15, 0.6);
+	color: #fff;
+	text-shadow: #000 0px 0px 20px;
+	
+}

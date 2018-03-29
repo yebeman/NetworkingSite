@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+ .viewport {
+            border: 4px solid #999;
+         
+            height: 220px;
+            margin: 0 9px 9px 0;
+            overflow: hidden;
+            position: relative;
+            width: 290px;
+			cursor:pointer;
+        }
+        .no-margin {
+            margin-right: 0;
+			margin-bottom:0;
+        }
+
+        .viewport a {
+            display: block;
+            position: relative;
+        }
+
+        .viewport a img {
+            height: 250px;
+            left: -20px;
+            position: relative;
+            top: -20px;
+            width: 320px;
+        }
+        .viewport a span {
+            display: none;
+            font-size: 2.0em;
+            font-weight: bold;
+            height: 100%;
+            padding-top: 20px;
+            position: absolute;
+            text-align: center;
+            text-decoration: none;
+            width: 100%;
+            z-index: 100;
+        }
+          .viewport a span em {
+                display: block;
+                font-size: 0.45em;
+                font-weight: normal;
+          }
+        .dark-background {
+            background-color: rgba(15, 15, 15, 0.6);
+            color: #fff;
+            text-shadow: #000 0px 0px 20px;
+        }
+            .dark-background em {
+                color: #ccc;
+            }
+     .NOP{
+		 position: absolute;
+		 z-index:101;
+		 color: #fff;
+		 font-size:19px;
+		  bottom:20px; 
+		  right:2px;
+		 }
+.page-cover {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
