@@ -1,12 +1,12 @@
 <?php 
 // this input will take my localhost name
-$db_host = "localhost";
+$db_host = "********";
 // Place the username for the MySQL database here
-$db_username = "yebeman"; 
+$db_username = "*******"; 
 // Place the password for the MySQL database here
-$db_pass = "Yebelgod1"; 
+$db_pass = "******"; 
 // Place the name for the MySQL database here
-$db_name = "yebeman_users_of_yachatt_website_or_registered_users";
+$db_name = "********";
 
 // in here the program runs
 @mysql_connect("$db_host","$db_username","$db_pass") or die ("could not connect to mysql");
