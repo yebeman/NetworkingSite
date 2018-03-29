@@ -1,0 +1,109 @@
+
+h3, h4, ul, li{
+	margin: 0;
+	padding: 0;
+	
+}
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+h3 {
+	font-family: sans-serif;
+	line-height: 1.6em;
+	color: #616161;
+	text-decoration: none;
+	font-size: 14px;
+}
+h4 {
+	font-family: sans-serif;
+	line-height: 1.6em;
+	color: #616161;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight:normal;
+}
+
+/******************************************************************
+Main CSS
+******************************************************************/
+
+input#search {
+	position:fixed;
+	width: 305px;
+	height: 25px;
+	padding: 0px 30px;
+	background: url(../images/search.gif);
+	background-color:#FFF;
+	background-position:left;
+	background-repeat:no-repeat;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	outline: none;
+	
+	font-size: 18px;
+	color: #ababab;
+}
+input#search:hover, input#search:focus {
+	color: #3b3b3b;
+	border:none;
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);
+}
+h4#results-text {
+	display: none;
+}
+ul.searched {
+	
+	width: 300px;
+	margin-top: 30px;
+	border: 1px solid #ababab;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,.15) 0 1px 3px;
+	box-shadow: rgba(0, 0, 0, .15) 0 1px 3px;
+}
+ul.searched li {
+	padding: 8px;
+	cursor: pointer;
+	background-color: #eee;
+	border-top: 1px solid #cdcdcd;
+	transition: background-color .2s ease-in-out;
+	-moz-transition: background-color .2s ease-in-out;
+	-webkit-transition: background-color .2s ease-in-out;
+}
+ul.searched li:hover {
+	background-color: #FFF;
+}
+ul.searched li:first-child {
+	border-top: none;
+}
+ul.searched li h3, ul.searched li h4 {
+	transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	color: #616161;
+	line-height: 1.2em;
+}
+ul.searched li:hover h3, ul.searched li:hover h4  {
+	color: #3b3b3b;
+	
+}
+
+
+
+
+
