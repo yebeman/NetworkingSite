@@ -1,2 +1,2 @@
 # NetworkingSite
-Written with php, js,css, HTML and over HTTP longpolling
+Written in php, js, css and HTML over HTTP longpolling
